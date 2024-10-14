@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f3e9; /* Light creamy color */
+}
+
+/* Header Styling */
+header {
+  height: 50px;
+  display: flex;
+  position: absolute;
+  
+}
+
+/* Main Content Styling */
+main {
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  color: #3b2c2e;
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.2em;
+  color: #5a4b4b;
+}
+
+.btn {
+  background-color: #ab8f7d;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+
+/* Image Gallery Styling */
+.image-gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 50px 0;
+}
+
+.image-gallery img {
+  width: 30%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Section Styling */
+.section {
+  padding: 50px 0;
+  background-color: #fffaf1; /* Light cream section color */
+}
+
+.section h2 {
+  color: #3b2c2e;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.section p {
+  color: #5a4b4b;
+  font-size: 1.2em;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #3b2c2e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 97.6%;
+}
